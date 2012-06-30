@@ -1,0 +1,28 @@
+{% for alert in alerts() %}
+	{% if alert.type == 'alert' %}
+		{% set css_class = 'alert' %}
+	{% elseif alert.type == 'error' %}
+		{% set css_class = 'alert alert-error' %}
+	{% elseif alert.type == 'success' %}
+		{% set css_class = 'alert alert-success' %}
+	{% elseif alert.type == 'info' %}
+		{% set css_class = 'alert alert-info' %}
+	{% endif %}
+	{% if alert.block %}
+		<div class="{{ css_class }} alert-block">
+			<button type="button" class="close" data-dismiss="alert">×</button>
+			{% if alert.subject is not null %}
+			<h4 class="alert-heading">{{ alert.subject }}</h4>
+			{% endif %}
+			{{ alert.text }}
+		</div>
+	{% else %}
+		<div class="{{ css_class }}">
+			<button type="button" class="close" data-dismiss="alert">×</button>
+			{% if alert.subject is not null %}
+				<strong>{{ alert.subject }}</strong>
+			{% endif %}
+			{{ alert.text }}
+		</div>
+	{% endif%}
+{% endfor %}
