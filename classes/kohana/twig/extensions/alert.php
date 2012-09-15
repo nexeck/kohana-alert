@@ -4,7 +4,7 @@
  *
  * @package   Kohana/Alert
  * @category  Twig/Extensions
- * @author    Marcel Beck <marcel.beck@mbeck.org>
+ * @author    Marcel Beck <marcel.beck@outlook.com>
  * @copyright (c) 2012 Marcel Beck
  */
 class Kohana_Twig_Extensions_Alert extends Twig_Extension
@@ -12,7 +12,7 @@ class Kohana_Twig_Extensions_Alert extends Twig_Extension
     /**
      * Returns the added functions
      *
-     * @author Marcel Beck <marcel.beck@mbeck.org>
+     * @author Marcel Beck <marcel.beck@outlook.com>
      * @uses   Twig_Function_Function
      * @return array
      */
@@ -24,7 +24,7 @@ class Kohana_Twig_Extensions_Alert extends Twig_Extension
     }
 
     /**
-     * @author Marcel Beck <marcel.beck@mbeck.org>
+     * @author Marcel Beck <marcel.beck@outlook.com>
      * @return string
      */
     public function getName()

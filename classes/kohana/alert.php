@@ -3,7 +3,7 @@
  * Alert module for Kohana
  *
  * @package   Kohana/Alert
- * @author    Marcel Beck <marcel.beck@mbeck.org>
+ * @author    Marcel Beck <marcel.beck@outlook.com>
  * @copyright (c) 2012 Marcel Beck
  */
 abstract class Kohana_Alert
