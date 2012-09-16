@@ -2,7 +2,7 @@
 /**
  * Alert module for Kohana
  *
- * @package   Kohana/Alert
+ * @package   Nexeck/Alert
  * @author    Marcel Beck <marcel.beck@outlook.com>
  * @copyright (c) 2012 Marcel Beck
  */

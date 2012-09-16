@@ -2,7 +2,7 @@
 /**
  * Alert Twig Extensions
  *
- * @package   Kohana/Alert
+ * @package   Nexeck/Alert
  * @category  Twig/Extensions
  * @author    Marcel Beck <marcel.beck@outlook.com>
  * @copyright (c) 2012 Marcel Beck
