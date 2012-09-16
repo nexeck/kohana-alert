@@ -7,7 +7,7 @@
  * @author    Marcel Beck <marcel.beck@outlook.com>
  * @copyright (c) 2012 Marcel Beck
  */
-class Kohana_Twig_Extensions_Alert extends Twig_Extension
+class Nexeck_Twig_Extensions_Alert extends Twig_Extension
 {
     /**
      * Returns the added functions

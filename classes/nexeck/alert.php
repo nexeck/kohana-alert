@@ -6,7 +6,7 @@
  * @author    Marcel Beck <marcel.beck@outlook.com>
  * @copyright (c) 2012 Marcel Beck
  */
-abstract class Kohana_Alert
+abstract class Nexeck_Alert
 {
     /**
      * Alert type alert
